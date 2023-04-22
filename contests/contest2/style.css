@@ -1,0 +1,258 @@
+.background{
+    background-color: black;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar Styles */
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(255, 179, 0);
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.navbar-logo img {
+	max-width: 80%;
+}
+
+.navbar-links {
+	display: flex;
+	list-style-type: none;
+}
+
+.navbar-links li {
+	margin-right: 30px;
+}
+
+.navbar-links li:last-child {
+	margin-right: 0;
+}
+
+.navbar-links a {
+	color: #333;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.navbar-links a:hover {
+	color: #a8a4a4;
+}
+
+/* Intro Section Styles */
+
+.intro {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 100px 10px;
+    width: 100%;
+    color: white;
+}
+
+.intro h1 {
+	font-size: 48px;
+	font-weight: 600;
+	margin-bottom: 20px;
+    margin-top: 0%;
+}
+
+.intro p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+.intro button {
+	background-color: rgb(255, 179, 0);
+	color: black;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	cursor: pointer;
+    width: 180px;
+    justify-content: center;
+    display: flex;
+}
+
+.intro button:hover {
+	background-color: #8e8b8b;
+}
+
+.intro-image img {
+    height: 270px;
+    width: 450px;
+    left: 1678px;
+    top: 173px;
+    border-radius: 0px;
+}
+
+/* Contact Us Section Styles */
+
+.contact {
+	padding: 100px 10px;
+    color: rgb(255, 179, 0);
+}
+
+.contact h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.contact form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form-group {
+	flex-basis: 100%;
+	margin-bottom: 20px;
+    border-color: rgb(255, 179, 0);
+}
+.form-group-group{
+    flex-basis: 100%;
+    border-color: rgb(255, 179, 0);
+	margin-bottom: 20px;
+    
+}
+.form-group-group label {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+    border-color: rgb(255, 179, 0);
+}
+.form-group-group input,
+.form-group-group textarea {
+	padding: 10px;
+	border: 2px solid #333;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	width: 45%;
+	margin-top: 5px;
+	outline: none;
+    border-color: rgb(255, 179, 0);
+}
+
+.form-group label {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+    border-color: rgb(255, 179, 0);
+}
+
+.form-group input,
+.form-group textarea {
+	padding: 10px;
+	border: 2px solid #333;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	width: 100%;
+	margin-top: 5px;
+	outline: none;
+    border-color: rgb(255, 179, 0);
+}
+
+.form-group textarea {
+	min-height: 150px;
+    border-color: rgb(255, 179, 0);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+	border-color: #666;
+    border-color: rgb(255, 179, 0);
+}
+
+button {
+	background-color: rgb(255, 179, 0);
+	color: black;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	cursor: pointer;
+    width: 180px;
+    justify-content: center;
+    display: flex;
+}
+.contact button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+button:hover {
+	background-color: #8e8b8b;
+}
+
+/* Table Section Styles */
+
+table{
+    height: 755px;
+width: 1582px;
+margin-left: 75px;
+margin-top: 20px;
+border-radius: 0px;
+text-align: center;
+}
+.tfoot{
+background: #FCAF02;
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+color: #000000;
+text-align: center;
+}
+th{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+
+}
+td{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+table,td,th{
+    border: 2px solid #FCAF02;
+    border-collapse: collapse;
+    
+}
+td{
+    border:2px solid #FCAF02;
+    border-top: none;
+    border-bottom: none;
+}
