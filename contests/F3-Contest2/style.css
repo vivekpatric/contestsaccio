@@ -1,0 +1,131 @@
+.fillup input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .fillup {
+    margin-top: 15px;
+    color: white;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+  #signupForm {
+    color: white;
+  }
+  #signupForm h1 {
+    font-size: 60px;
+  }
+  body {
+    background-color: black;
+  }
+  .forum {
+    justify-content: center;
+    margin: 150px;
+  }
+  .btn button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  #successMessage {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(62, 186, 62);
+    font-size: 18px;
+  }
+  #errorMessage {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: red;
+    font-size: 18px;
+  }
+  #passwordMessage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(215, 215, 59);
+    font-size: 18px;
+  }
+  
+  /* -------NAVBAR------- */
+  nav {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .navbarr li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .navbarr li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .navbar li a:hover {
+    color: #f00;
+  }
+  .navbarr li a:hover {
+    color: #f00;
+  }
+  .space{
+    background-color: white;
+    height: 3px;
+    width: 100%;
+  }
+  
+  /* -------PROFILE------ */
+  #profileDetails {
+    margin: 0 50px;
+    font-size: 30px;
+    color: white;
+  }
+  .profile {
+    margin: 50px 50px 15px 50px;
+    font-size: 60px;
+    color: white;
+  }
+  #logoutButton {
+    margin: 0 50px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  #profilehead {
+    color: white;
+  }
+  .answer {
+    color: rgb(144, 188, 79);
+  }

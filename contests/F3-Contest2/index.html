@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li><a>Header</a></li>
+      </ul>
+
+      <ul class="navbarr">
+        <li><a href="index.html">Signup</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+
+    <div class="space"></div>
+
+    <div class="forum">
+      <form id="signupForm">
+        <h1>Signup</h1>
+
+        <div class="fillup">
+          <input type="text" id="name" placeholder="Full Name" required />
+        </div>
+
+        <div class="fillup">
+          <input type="email" id="email" placeholder="Email" required />
+        </div>
+
+        <div class="fillup">
+          <input type="password" id="password" placeholder="Password" required/>
+        </div>
+
+        <div class="fillup">
+          <input type="password" id="confirmpassword" placeholder="Confirm Password" required/>
+        </div>
+
+        <div id="successMessage" class="hidden"></div>
+        <div id="errorMessage" class="hidden"></div>
+        <div id="passwordMessage" class="hidden"></div>
+
+        <div class="btn">
+          <button type="submit" onclick="showMessage()">Signup</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="signup.js"></script>
+  </body>
+</html>
