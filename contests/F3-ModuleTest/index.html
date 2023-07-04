@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f3-ModuleTest</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h2>MY Public IP ADDRESS :<span id="gfg"></span></h2>
+    <div id="container1">
+        <button id="getData">Get Data</button>
+    </div>
+    <div id="container2">
+        <div id="details">
+             <h2 id="lat"></h2>
+             <h2 id="city"></h2>
+             <h2 id="organisation"></h2>
+             <h2 id="long"></h2>
+             <h2 id="region"></h2>
+             <h2 id="hostname"></h2>
+        </div>
+        <div id="map">
+             <iframe id="map1" width="100%" height="270" frameborder="0" style="border:0"></iframe>
+        </div>
+        <div id="resultDetails">
+             <h2 id="timezone">Time Zone:</h2>
+             <h2 id="dateAndTime">Date And Time:</h2>
+             <h2 id="pincode">Pincode:</h2>
+             <h2 id="message">Message:</h2>
+        </div>
+        <div id="searchFilter">
+            <i class="fa fa-search" id="searchFilter2"></i>
+            <input type="text" placeholder="Filter" id="searchFilter1">
+        </div>
+        <div id="resultcard">
+            
+        </div>
+    </div>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+    <script src="./script.js"></script>
+</body>
+</html>

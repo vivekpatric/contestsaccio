@@ -1,0 +1,44 @@
+#getData{
+    background-color: black;
+    color: white;
+    padding: 7px 45px;
+    border-radius: 5px;
+}
+#details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+}
+#searchFilter {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 30px;
+  }
+  
+  #searchFilter2 {
+    margin-right: 5px;
+  }
+  
+  #searchFilter1 {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+.card{
+    border: 2px solid black;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+#resultcard{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+#container2{
+  display: none;
+}
